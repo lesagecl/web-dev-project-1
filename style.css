@@ -1,0 +1,51 @@
+.cju {
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    max-height: 30px;
+}
+
+.cjuBg {
+    display: flex;
+    background-color: #483d8b;
+    justify-content: center;
+    width: auto;
+    padding-bottom: 10px;
+    max-height: fit-content;
+}
+
+/* nav {
+    background-color: #cc6666;
+} */
+
+.navul {
+    list-style-type: none;
+    display: flex;
+    background-color: #655aaf;
+    margin-block-start: 0;
+    margin-block-end: 0; /* maybe remove */
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+}
+
+.navli {
+    font-family: arial;
+    font-size: 17px;
+    /* margin-left: 2em;
+    margin-right: 2em; */
+}
+
+.navli a {
+    color: white;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    float: left;
+    padding: .60em;
+}
+
+.navli > a:hover {
+    background-color: #877ebe;
+  }
