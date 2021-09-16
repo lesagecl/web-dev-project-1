@@ -16,10 +16,6 @@
     max-height: fit-content;
 }
 
-/* nav {
-    background-color: #cc6666;
-} */
-
 .navul {
     list-style-type: none;
     display: flex;
@@ -34,8 +30,6 @@
 .navli {
     font-family: arial;
     font-size: 17px;
-    /* margin-left: 2em;
-    margin-right: 2em; */
 }
 
 .navli a {
