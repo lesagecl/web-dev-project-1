@@ -54,7 +54,8 @@
 .middler {
     flex-grow: 1;
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
+    /* ^^change to column for media query */
 }
 
 aside {
@@ -68,7 +69,6 @@ main {
   }
 
 .cju {
-    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  */
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: white;
@@ -112,3 +112,19 @@ main {
 .navli > a:hover {
     background-color: #877ebe;
   }
+p {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+footer {
+  background-color: #655aaf;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.foot-note {
+  margin: 3px;
+  color: white;
+}
