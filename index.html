@@ -3,6 +3,7 @@
 
 <head>
     <title>CJU Study Abroad</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="images/burningGlobe.png" />
 </head>
@@ -17,20 +18,23 @@
             <li class="navli"><a href="france.html">France</a></li>
             <li class="navli"><a href="london.html">London</a></li>
             <li class="navli"><a href="australia.html">Australia</a></li>
-            <li class="navli"><a href="applyForm.html">Apply</a></li>
+            <li class="navli"><a href="form.html">Apply</a></li>
             <li class="navli"><a href="index.html">Home</a></li>
         </ul>
     </nav>
 
     <div class="middler">
         <aside class="lefter">
-            <p>Calling all Burning Globes: now is the time to <i>travel</i> the globe! CJU currently offers
+            <p class="home-text">Calling all Burning Globes: now is the time to <i>travel</i> the globe! CJU currently
+                offers
                 study abroad
                 experiences in Italy, France, London, and Australia. Explore your options today!</p>
-            <p>Take up to 12 credit during the offered 6-8 week courses. Plan your curriculum to learn a new
+            <p class="home-text">Take up to 12 credits during the offered 6-8 week courses. Plan your curriculum to
+                learn a new
                 language, try tasty cooking and cuisine, and study the country's vibrant culture.</p>
-            <p>For additional information on offered courses and credit hours, contact a study abroad advisor.</p>
-            <p><b>NOTICE</b>: All study abroad programs adhere to COVID-19 travel restrictions. <a
+            <p class="home-text">For additional information on offered courses and credit hours, contact a study abroad
+                advisor.</p>
+            <p class="home-text"><b>NOTICE</b>: All study abroad programs adhere to COVID-19 travel restrictions. <a
                     href="https://travel.state.gov/content/travel/en/traveladvisories/COVID-19-Country-Specific-Information.html">Learn
                     more here</a>.</p>
         </aside>
@@ -38,18 +42,23 @@
             <div class="slideshow-container">
 
                 <div class="mySlides fade">
-                    <img src="images/AusBird.JPG" style="width:100%">
-                    <div class="captext">Caption Text</div>
+                    <img src="images/AusBird.JPG" style="width:100%"
+                        alt="Picture of two pelicans sitting on top of tree roots">
+                    <div class="captext">Great white pelicans found in the Daintree Rainforest, located to the
+                        northeastern coast of Queensland, Australia</div>
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="images/galleria hall edited.jpg" style="width:100%">
-                    <div class="captext">Caption Two</div>
+                    <img src="images/ItalyBaths.JPG" style="width:100%"
+                        alt="Picture of tall grass with a mountain in the background">
+                    <div class="captext">The Baths of Sorrento, Italy. The mountain in the distance is Mount Vesuvius
+                    </div>
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="images/AusOpera.JPG" style="width:100%">
-                    <div class="captext">Caption Three</div>
+                    <img src="images/FranceArc.jpeg" style="width:100%" alt="Picture of the Arc de Triomphe">
+                    <div class="captext">The Arc de Triomphe in Paris, France, found on the western side of the
+                        Champs-Élysées</div>
                 </div>
 
             </div>
@@ -79,12 +88,25 @@
                     }
                     slides[slideIndex - 1].style.display = "block";
                     dots[slideIndex - 1].className += " active";
-                    setTimeout(showSlides, 4000); // Change image every 4 seconds
+                    setTimeout(showSlides, 5000); // Change image every 5 seconds
                 }
             </script>
         </main>
         <aside class="righter" style="text-align: center;">
-            <p><em>"This was the most funnest experience ever"</em><br>&ndash; Jane Doe, Italy '19</p>
+            <p class="quote-text"><em>"This was the best experience ever; I loved learning with my peers and drinking
+                    wine with them,
+                    too!"</em><br>&ndash; Lily Lu, France '19</p>
+            <hr class="quote-hr">
+            <p class="quote-text"><em>"Aiuto! Ho imparato troppo, non riesco a smettere di parlare italiano
+                    adesso!"</em><br>&ndash; Arnold
+                Vargas, Italy '18</p>
+            <hr class="quote-hr">
+            <p class="quote-text"><em>"Oi, trip was ace but those roo's are mighty aggro. Little prang made me wet my
+                    jocks."</em><br>&ndash; Hester Lloyd, Australia '21</p>
+            <hr class="quote-hr">
+            <p class="quote-text"><em>"Why do they drink so much tea here? It tastes so bad, I don't get it. The Boston
+                    Tea Party was a
+                    good move on our part."</em><br>&ndash; April Drew, London '19</p>
         </aside>
     </div>
 
@@ -94,7 +116,5 @@
     <p class="foot-note"><b>Questions?</b> Call the Center for Study Abroad at 1-800-555-5555 or email
         studyabroad@cju.edu</p>
 </footer>
-
-<!-- mascot: burning globes -->
 
 </html>

@@ -55,6 +55,7 @@
     flex-grow: 1;
     display: flex;
     flex-direction: row; 
+    /* margin: 0 auto; */
     /* ^^change to column for media query */
 }
 
@@ -112,11 +113,33 @@ main {
 .navli > a:hover {
     background-color: #877ebe;
   }
-p {
+
+.home-text  {
   margin-left: 5px;
   margin-right: 5px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
+}
+
+.quote-text {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+.quote-hr {
+  border: none;
+  border-bottom: 1px #655aaf solid;
+  display: block;
+  width: 60%;
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2.5vw;
+  color: gray;
 }
 footer {
   background-color: #655aaf;
@@ -126,5 +149,41 @@ footer {
 }
 .foot-note {
   margin: 3px;
+  font-size: 15px;
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+  display: inline-block;
+  background-color: #e6e3f7;
+}
+
+.form p {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+@media (max-width: 650px) {
+  .cju {
+    font-size: 1.5em;
+  }
+  .navli {
+    font-size: 12px;
+}
+  aside {
+    width: 0;
+  }
+  .middler {
+    flex-grow: 1;
+    display: flex;
+    /* flex-direction: coulmn;  */
+    width: 100%;
+    /* ^^change to column for media query */
+  }
+  .foot-note {
+    font-size: 12px;
+  }
 }
