@@ -1,0 +1,121 @@
+  /* Slideshow container */
+  .slideshow-container {
+    padding-top: 10px;
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .captext {
+    color: #f2f2f2;
+    font-size: 15px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  .middler {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+  }
+
+  aside {
+    padding: 10px;
+    border:10px solid white;
+    background-color: #f1f0ea;
+    flex-basis: 25vw;
+  }
+
+  main {
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+  
+  .program-dates {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: #f1f0ea;
+    padding-bottom: 1px;
+    padding-top: 6px;
+  }
+  
+  .home-text  {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+  }
+  
+  .quote-text {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+  }
+  
+  .quote-hr {
+    border: none;
+    border-bottom: 1px #4d8088 solid;
+    display: block;
+    width: 60%;
+  }
+  
+  .bottom-info {
+    text-align: center;
+    margin-bottom: 11%;
+    background-color: #deecef;
+    padding: 5px;
+    margin-top: 0;
+    margin-bottom: 60px;
+  }
+
+  @media (max-width: 800px), screen and (max-device-width: 800px) {
+    /* media viewport */
+    .lefter {
+      order: 1;
+    }
+    .righter {
+      order: 2;
+    }
+    .middler {
+      flex-direction: column;
+      /* margin-bottom: 12%; */
+    }
+  }
