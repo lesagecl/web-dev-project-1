@@ -66,4 +66,13 @@
     background-color: #f1f0ea;
     border: 1px solid #4d8088;
   }
+
+  @media (max-width: 800px), screen and (max-device-width: 800px) {
+    .country-heading {
+      font-size: large;
+    }
+    .country-visit {
+      font-size: x-large;
+    }
+  }
   
