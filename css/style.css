@@ -2,8 +2,8 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
     color: white;
-    font-size: 2em;
-    max-height: 30px;
+    font-size: 2.4em;
+    max-height: 40px;
 }
 
 .cju-bg {
@@ -27,7 +27,7 @@
 
 .navli {
     font-family: arial;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .navli a {
@@ -74,11 +74,3 @@ footer {
     max-height: 50px;
   }
 }
-
-/* @media (max-width: 430px), screen and (max-device-width: 800px) {
-  .cju {
-    font-size: 1.2em;
-  }
-} */
-
-/* TODO: responsive images */

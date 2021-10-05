@@ -56,4 +56,7 @@
     .form-img {
       display: none;
     }
+    .form-area {
+      width:60vw;
+    }
   }
